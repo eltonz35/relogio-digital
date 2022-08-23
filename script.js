@@ -8,7 +8,7 @@ function atualizarTempo() {
     display.textContent = horario;
 }
 
-function corrigirHorario() {
+function corrigirHorario(numero) {
     if(numero < 10) {
         numero = "0" + numero;
     }
