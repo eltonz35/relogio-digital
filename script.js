@@ -15,4 +15,5 @@ function corrigirHorario(numero) {
     return numero;
 }
 
+atualizarTempo();
 setInterval(atualizarTempo, 1000);
