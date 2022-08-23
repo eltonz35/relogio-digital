@@ -4,8 +4,9 @@ function atualizarTempo() {
     let tempo = new Date();
     
     let horario = tempo.getHours() + ":" + tempo.getMinutes();
+    
+    display.textContent = horario;
 }
 
-display.textContent = horario;
 
 setInterval(atualizarTempo, 1000);
