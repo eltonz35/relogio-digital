@@ -3,7 +3,7 @@ function atualizarTempo() {
     
     let tempo = new Date();
     
-    let horario = tempo.getHours() + ":" + tempo.getMinutes();
+    let horario = corrigirHorario(tempo.getHours()) + ":" + corrigirHorario(tempo.getMinutes());
 
     display.textContent = horario;
 }
